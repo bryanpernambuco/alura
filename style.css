@@ -1,4 +1,31 @@
 body {
-  background-color: #000000;
-  color: #ffffff;
+  padding-top: 10px;
+  color: rgb(202, 41, 41);
+  background-color: rgb(0, 0, 0);
+  background: linear-gradient(135deg, rgb(0, 0, 0) 0%, rgb(170, 0, 0) 100%);
+  text-align: auto;
+  font-weight: bold;
+  padding: 90px;
+}
+header {
+  margin:10px;
+  color: rgb(202, 16, 16);
+  font-size: 60px;
+  font-weight: bold;
+}
+h1 {
+  color: rgb(223, 0, 0);
+  font-size: 60px;
+  font-weight: bold;
+}
+iframe {
+  color:brown;
+  border-radius: 20px;
+  padding: auto;
+}
+footer {
+  color: gray;
+}
+img {
+  text-align: center;
 }
