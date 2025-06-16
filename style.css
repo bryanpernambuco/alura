@@ -1,31 +1,23 @@
 body {
-  padding-top: 10px;
-  color: rgb(202, 41, 41);
-  background-color: rgb(0, 0, 0);
-  background: linear-gradient(135deg, rgb(0, 0, 0) 0%, rgb(170, 0, 0) 100%);
-  text-align: auto;
-  font-weight: bold;
-  padding: 90px;
+ margin: 0; /* Remove margens padrão */
+ padding: 0; /* Remove espaçamento interno padrão */
+ background: linear-gradient(135deg, #000000 0%, #ff0000 100%);
+ min-height: 100vh; /* Altura mínima da tela inteira */
+ border: none; /* Remove bordas */
+ background-attachment: fixed; /* Fundo fixo ao rolar */
 }
-header {
-  margin:10px;
-  color: rgb(202, 16, 16);
-  font-size: 60px;
-  font-weight: bold;
+p {
+  color:rgb(248, 11, 11);
 }
 h1 {
-  color: rgb(223, 0, 0);
-  font-size: 60px;
-  font-weight: bold;
+  color:rgb(248, 11, 11);
 }
-iframe {
-  color:brown;
-  border-radius: 20px;
-  padding: auto;
+header {
+  color:rgb(248, 11, 11);
 }
-footer {
-  color: gray;
+a {
+  color:rgb(248, 11, 11);
 }
-img {
-  text-align: center;
+ul {
+  color:rgb(248, 11, 11);
 }
